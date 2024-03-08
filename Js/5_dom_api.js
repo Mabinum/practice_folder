@@ -12,7 +12,7 @@ console.log(boxEl);
 const spanEl = document.querySelectorAll('span');
 spanEl.forEach(function(spanEl,index){
   console.log(index.spanEl);
-  spanEl.classList.add(`active`);
+  spanEl.classList.add('active');
 });
 
 const boxEl = document.querySelector('.box');

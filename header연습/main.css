@@ -1,0 +1,47 @@
+body header{
+  display: flex;
+  height: 100px;
+  max-width: 1280px;
+  position: relative;
+  margin: 0 auto;
+}
+header .left_header img {
+  width: 70px;
+  height: 70px;
+}
+header .left_header{  
+  display: flex;
+  position: absolute;
+}
+header .left_header .title{
+  text-decoration: none;
+  display: flex;
+  left: 10;
+  align-items: center;
+}
+header .left_header .title .main_menu{  
+  display: flex;
+  padding: 0 15px;
+  position: relative;
+}
+ 
+header .left_header .title .main_menu a{
+  text-decoration: none;
+  color: black;
+}
+header .left_header .title .main_menu a img{
+  /* display: flex; */
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+header .left_header .title .main_menu .sub_menu{
+  display: none;
+}
+
+header .right_header{
+  display: flex;
+  right: 0;
+  position: absolute;
+}
