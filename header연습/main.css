@@ -29,16 +29,23 @@ header .left_header .title .main_menu a{
   text-decoration: none;
   color: black;
 }
+header .left_header .title .main_menu .sub_menu{
+  display: none;
+}
+header .left_header .title .main_menu > a:hover .sub_menu{ 
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
 header .left_header .title .main_menu a img{
   /* display: flex; */
+  display: block;
   width: 20px;
   height: 20px;
   position: absolute;
 }
 
-header .left_header .title .main_menu .sub_menu{
-  display: none;
-}
 
 header .right_header{
   display: flex;
